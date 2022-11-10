@@ -1,3 +1,3 @@
 # VTeam
 
-This is the main repo for a course project in Blekinge Technical Institutes Virtual Team Course.
+This is a collection of technical studies Blekinge Technical Institutes Virtual Team Course.
