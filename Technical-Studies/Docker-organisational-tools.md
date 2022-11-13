@@ -1,6 +1,6 @@
 # Multi-stages in a docker container
 
-This is a short study of how to have multiple stages within a Docker container.
+This is a short study on multiple-staging within a Docker container.
 
 ## Multi-staging
 
@@ -20,4 +20,5 @@ docker build --target <stage_name> -t <image_name>
 ```
 
 Multi-stage builds are used in order to deploy production-ready apps. It works with just one Dockerfile, and allows to build smaller images as it is separated into various stages.
+Multi-staging are the most beneficial when there are many containers like in a CI/CD and when the complexity of a Dockerfile is high.
 
